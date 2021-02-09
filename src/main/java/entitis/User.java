@@ -35,6 +35,18 @@ import javax.persistence.Table;
 		
 		public User(){}
 
+		public User(Long id, String firstName, String lastName, Integer age, String nif, String email,
+				String password) {
+			super();
+			this.id = id;
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.age = age;
+			this.nif = nif;
+			this.email = email;
+			this.password = password;
+		}
+
 
 
 		public Long getId() {
@@ -117,6 +129,12 @@ import javax.persistence.Table;
 
 		public void setPassword(String password) {
 			this.password = password;
+		}
+
+		@Override
+		public String toString() {
+			return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", nif="
+					+ nif + ", email=" + email + ", password=" + password + "]";
 		}
 		
 		

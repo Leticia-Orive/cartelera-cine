@@ -29,7 +29,12 @@ package entitis;
 			
 			public Pelicula(){}
 
-
+public Pelicula(Long id, String nombre, Integer duracion) {
+				super();
+				this.id = id;
+				this.nombre = nombre;
+				this.duracion = duracion;
+			}
 
 
 			public Long getId() {
@@ -69,6 +74,11 @@ package entitis;
 
 			public void setDuracion(Integer duracion) {
 				this.duracion = duracion;
+			}
+
+			@Override
+			public String toString() {
+				return "Pelicula [id=" + id + ", nombre=" + nombre + ", duracion=" + duracion + "]";
 			}
 			
 			

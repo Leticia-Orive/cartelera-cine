@@ -4,7 +4,7 @@
 	<class>entitis.User</class>
 	<class>entitis.Cine</class>
 	<class>entitis.Pelicula</class>
-	<class>entitis.Direction</class>
+	<class>entitis.Contacto</class>
 	<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/proyecto-user" />
 			<property name="javax.persistence.jdbc.user" value="root" />

@@ -31,6 +31,14 @@ package entitis;
 			
 			public Cine(){}
 
+			public Cine(Long id, String nombre, Integer duracion, String sala) {
+				super();
+				this.id = id;
+				this.nombre = nombre;
+				this.duracion = duracion;
+				this.sala = sala;
+			}
+
 
 
 
@@ -86,6 +94,12 @@ package entitis;
 			public void setSala(String sala) {
 				this.sala = sala;
 			}
+
+			@Override
+			public String toString() {
+				return "Cine [id=" + id + ", nombre=" + nombre + ", duracion=" + duracion + ", sala=" + sala + "]";
+			}
+			
 			
 
 }
