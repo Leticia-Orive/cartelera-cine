@@ -34,7 +34,7 @@ package entitis;
 			
 			
 			
-			public direction(){}
+			public Direction(){}
 
 
 
