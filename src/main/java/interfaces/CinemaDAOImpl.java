@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface CinemaDAOImpl extends CinemaDAO {
+public class CinemaDAOImpl implements CinemaDAO {
 
 }
