@@ -28,7 +28,7 @@ public class UserDAOImpl implements UserDAO {
 		}
 		return new ArrayList<User>();
 	}
-
+//para login
 	@Override
 	public User get(Long id) {
 		User user = null;

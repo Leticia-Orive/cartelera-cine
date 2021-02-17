@@ -138,7 +138,7 @@ private static final long serialVersionUID = 1L;
 		user.setPassword(request.getParameter("Password"));
 		
 		
-		System.out.println(Boolean.valueOf(request.getParameter("married")));
+
 		
 		if(id.isEmpty() || id == null) {
 			
